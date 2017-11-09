@@ -9,6 +9,12 @@ var connection = mysql.createConnection({
   database: "burgers_db"
 });
 
+if (process.env.JAWS_URL) {
+  connection = mysql.createConnection(process.env.JAWS_URL);
+} else {
+  console.log(Get yo own password bitch!);
+};
+
 // Make connection.
 connection.connect(function (err) {
   if (err) {
