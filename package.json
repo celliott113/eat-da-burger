@@ -1,13 +1,13 @@
 {
-  "name": "mvc_design",
+  "name": "Eat Da Burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Heroku App that allows the user to make a burger, eat the burger then delete the burger.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Christopher Elliott",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.2",
