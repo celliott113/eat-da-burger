@@ -4,8 +4,8 @@
   "description": "A Heroku App that allows the user to make a burger, eat the burger then delete the burger.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Christopher Elliott",
   "license": "ISC",
