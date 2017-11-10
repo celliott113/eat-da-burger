@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
   host: "l7cup2om0gngra77.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
   user: "jemw3s9cg2piczpr",
   password: "ky005pyp3iqz8kl7",
-  database: "burgers_db"
+  database: "mzi0qo1smzmryxf6"
 });
 
 // Make connection.
