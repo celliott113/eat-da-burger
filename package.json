@@ -1,5 +1,5 @@
 {
-  "name": "Eat Da Burger",
+  "name": "Eat-Da-Burger",
   "version": "1.0.0",
   "description": "A Heroku App that allows the user to make a burger, eat the burger then delete the burger.",
   "main": "server.js",
