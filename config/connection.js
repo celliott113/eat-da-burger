@@ -2,10 +2,12 @@
 var mysql = require("mysql");
 var connection;
 
+//==================== Original Connection to JawsDB ====================//
 // if (process.env.JAWSDB_URL) {
 //   connection = mysql.createConnection(process.env.JAWSDB_URL);
 // };
 
+//==================== Connection to Secondary JawsDB ====================//
 // var connection = mysql.createConnection({
 //   port: 3306,
 //   host: "yhrz9vns005e0734.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
@@ -14,6 +16,7 @@ var connection;
 //   database: "s8olknqpg47vlnav"
 // });
 
+//==================== Connection to Antonio's JawsDB ====================//
 var connection = mysql.createConnection({
   port: 3306,
   host: "l7cup2om0gngra77.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
